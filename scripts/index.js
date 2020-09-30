@@ -3,9 +3,9 @@ const modal = document.querySelector("#modal")
 const close = document.querySelector("#modal .header a")
 
 buttonSearch.addEventListener("click", () => {
-    modal.classList.remove("hide")
+    modal.classList.remove("hide") /*remove a classe*/
 })
 
 close.addEventListener("click", () =>{
-    modal.classList.add("hide")
+    modal.classList.add("hide") /*adiciona a classe*/
 })
