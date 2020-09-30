@@ -37,6 +37,10 @@
     display: flex;
 
     font-size: 0.01px;
+    /* com a fonte deste tamanho o texto fica 
+    imperceptível para a leitura humana,
+    mas permite a leitura de softwares de acessibilidade. 
+    */
 }
 
 #modal .header h1 {
